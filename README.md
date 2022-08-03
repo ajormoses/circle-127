@@ -1,6 +1,6 @@
 # ALTSCHOOLAFRICA (CIRCLE -127) - DASHBOARD
 
-![Hackathon coding challenge](./design/hackathon-challenge)
+![Hackathon coding challenge](./design/hackathon-challenge.JPG)
 
 ## Welcome! 👋
 

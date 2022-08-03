@@ -23,3 +23,6 @@
 ## Built with
 
 - This dashboard was built using HTML, CSS, JAVASCRIPT
+- To login enter the following details
+- Email address: altschoolafrica@gmail.com
+- Password: circle127

@@ -260,6 +260,12 @@ a .nav-menu {
   width: 150%;
 }
 
+.student-slide,
+.gender-age-board,
+.age-track-board {
+  width: 100%;
+}
+
 .student-title {
   text-align: left;
 }

@@ -19,53 +19,23 @@ close.addEventListener("click", () => {
 });
 
 filter.addEventListener("click", () => {
-  filter_modal.classList.toggle("show");
+  filter_modal.style.display = "block";
 });
 
-const prev = document.querySelector(".circle-one");
-const next = document.querySelector(".circle-two");
-const tableSlider = document.querySelectorAll(".slide");
-
-var current = 0;
-
-function reset() {
-  for (let i = 0; i < tableSlider.length; i++) {
-    tableSlider[i].style.display = "none";
-  }
-}
-
-function start() {
-  reset();
-  tableSlider[0].style.display = "block";
-}
-
-function right() {
-  reset();
-  tableSlider[current + 1].style.display = "block";
-  current++;
-}
-
-function left() {
-  reset();
-  tableSlider[current - 1].style.display = "block";
-  current--;
-}
-
-prev.addEventListener("click", () => {
-  if (current === 0) {
-    current = tableSlider.length;
-  }
-  left();
+filter_modal.addEventListener("click", () => {
+  filter_modal.style.display = "none";
 });
 
-next.addEventListener("click", () => {
-  if (current === tableSlider.length - 1) {
-    current = -1;
-  }
-  right();
+const slide = document.querySelectorAll(".btn");
+const age_slider = document.querySelector(".age-track-board");
+
+slide[0].addEventListener("click", () => {
+  age_slider.style.transform = "translate(100%)";
 });
 
-start();
+slide[1].addEventListener("click", () => {
+  age_slider.style.transform = "translate(-100%)";
+});
 
 const todaysDate = new Date().toDateString(); // Current date
 const currentDay = document.querySelector(".currentDay");

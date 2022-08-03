@@ -64,6 +64,7 @@ main {
   width: 100%;
   padding: 1rem;
   border: 1px solid #2e384d12;
+  border-radius: 0.5rem;
   background: linear-gradient(
       0deg,
       rgba(46, 56, 77, 0.07),
@@ -107,6 +108,7 @@ main {
   font-size: 1.2rem;
   color: white;
   cursor: pointer;
+  border-radius: 0.5rem;
 }
 
 .account {
@@ -151,6 +153,7 @@ main {
       rgba(46, 56, 77, 0.07)
     ),
     linear-gradient(0deg, rgba(46, 56, 77, 0.02), rgba(46, 56, 77, 0.02));
+  border-radius: 0.5rem;
 }
 
 .sign-up {
@@ -298,9 +301,9 @@ main {
   }
 }
 
-@media only screen and (min-width: 100rem) {
+@media only screen and (min-width: 125rem) {
   main {
-    width: 100rem;
+    width: 125rem;
     margin: auto;
   }
 }

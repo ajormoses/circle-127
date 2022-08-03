@@ -19,7 +19,11 @@ close.addEventListener("click", () => {
 });
 
 filter.addEventListener("click", () => {
-  filter_modal.classList.toggle("show");
+  filter_modal.style.display = "block";
+});
+
+filter_modal.addEventListener("click", () => {
+  filter_modal.style.display = "none";
 });
 
 const todaysDate = new Date().toDateString(); // Current date

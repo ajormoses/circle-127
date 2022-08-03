@@ -1,5 +1,7 @@
 # ALTSCHOOLAFRICA (CIRCLE -127) - DASHBOARD
 
+![Design preview for the E-commerce product page coding challenge](./design/hackathon-challenge)
+
 ## Welcome! 👋
 
 - [Overview](#overview)

@@ -231,6 +231,7 @@ a .nav-menu {
   width: 100%;
   background: rgba(37, 37, 37, 0.39);
   display: none;
+  z-index: 8;
 }
 
 .filter-modal.show {
@@ -254,13 +255,14 @@ a .nav-menu {
 
 .student-board-content {
   display: flex;
+  justify-content: flex-end;
   font-size: 1rem;
   width: 150%;
 }
 
 .students,
 .slide {
-  width: 50%;
+  width: 100%;
 }
 
 .student-title {

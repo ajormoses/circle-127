@@ -1,13 +1,13 @@
 # ALTSCHOOLAFRICA (CIRCLE -127) - DASHBOARD
 
-![Design preview for the DASHBOARD CIRCLE-127 done by Chinonye Onuoha(UI/UX) ](./design/desktop-preview.jpg)
+![Figma design for the DASHBOARD CIRCLE-127 done by Chinonye Onuoha(UI/UX) ](https://www.figma.com/file/QlVP4cVNXJCWqbs7bpFLUa/Circle-127-?node-id=0%3A1)
 
 ## Welcome! 👋
 
 - [Overview](#overview)
   My name is Ajor Moses, I'm a student of AltSchoolAfrica, Thanks for checking out this HACKATHON coding challenge.
 
-## Member
+## Members
 
 - [Ajor Moses](#AjorMoses)
 - [Ayomide Nosimot Akangbe](#AyomideNosimotAkangbe)
@@ -16,8 +16,8 @@
 
 ## Links
 
-- [Solution URL]: [ ]
-- [Live Site URL]: [ ]
+- [Solution URL]: [https://github.com/ajormoses/circle-127 ]
+- [Live Site URL]: [https://circle127hackathon.netlify.app/]
 
 ## Built with
 

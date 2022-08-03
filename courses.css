@@ -251,7 +251,7 @@ article:hover {
 
 .filter-data-content {
   display: flex;
-  justify-content: right;
+  justify-content: flex-end;
   align-items: center;
   width: 2rem;
   margin-left: auto;

@@ -14,8 +14,9 @@
 
 ## Links
 
-- [Solution URL]: [https://github.com/ajormoses/circle-127 ]
-- [Live Site URL]: [https://circle127hackathon.netlify.app/]
+- Solution URL: https://github.com/ajormoses/circle-127
+- Live Site URL: https://circle127hackathon.netlify.app/
+- Figma design URL: https://www.figma.com/file/QlVP4cVNXJCWqbs7bpFLUa/Circle-127-?node-id=0%3A1
 
 ## Built with
 

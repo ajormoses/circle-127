@@ -1,7 +1,5 @@
 # ALTSCHOOLAFRICA (CIRCLE -127) - DASHBOARD
 
-![Figma design for the DASHBOARD CIRCLE-127 done by Chinonye Onuoha(UI/UX) ](https://www.figma.com/file/QlVP4cVNXJCWqbs7bpFLUa/Circle-127-?node-id=0%3A1)
-
 ## Welcome! 👋
 
 - [Overview](#overview)
@@ -18,6 +16,7 @@
 
 - [Solution URL]: [https://github.com/ajormoses/circle-127 ]
 - [Live Site URL]: [https://circle127hackathon.netlify.app/]
+- [Figma design URL]: [https://www.figma.com/file/QlVP4cVNXJCWqbs7bpFLUa/Circle-127-?node-id=0%3A1]
 
 ## Built with
 

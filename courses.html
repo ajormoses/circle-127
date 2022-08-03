@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="courses.css" />
+    <title>Circle-127 ALTSCHOOL PROJECT</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="container">
+          <div class="header">
+            <span class="dashboard desktop">Dashboard</span>
+            <div class="icon-toggle">
+              <div class="filter">
+                <svg
+                  width="16"
+                  height="12"
+                  viewBox="0 0 16 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16 0H0V2H16V0ZM12 5H0V7H12V5ZM7 10H0V12H7V10Z"
+                    fill="white"
+                  />
+                </svg>
+              </div>
+            </div>
+            <form action="/" id="form">
+              <input
+                type="text"
+                id="search"
+                placeholder="Search for student, or course"
+              />
+              <div class="icon-search">
+                <svg
+                  width="15"
+                  height="15"
+                  viewBox="0 0 15 15"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14 14.0002L11.0093 11.0042M12.6666 7.00016C12.6666 8.50306 12.0696 9.9444 11.0069 11.0071C9.94421 12.0698 8.50287 12.6668 6.99998 12.6668C5.49709 12.6668 4.05575 12.0698 2.99304 11.0071C1.93034 9.9444 1.33331 8.50306 1.33331 7.00016C1.33331 5.49727 1.93034 4.05593 2.99304 2.99322C4.05575 1.93052 5.49709 1.3335 6.99998 1.3335C8.50287 1.3335 9.94421 1.93052 11.0069 2.99322C12.0696 4.05593 12.6666 5.49727 12.6666 7.00016V7.00016Z"
+                    stroke="#A5A5A5"
+                    stroke-width="1.47953"
+                    stroke-linecap="round"
+                  />
+                </svg>
+              </div>
+            </form>
+            <div class="notification">
+              <svg
+                width="18"
+                height="19"
+                viewBox="0 0 18 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M14.6667 10.6667C14.7949 11.4167 15.2436 11.5834 15.5 12.3334V14.8334V15.6667H10.5C10.5 16.2917 10.1795 16.8334 9.66667 17.3334C9.15385 17.8334 8.64103 18.1667 8 18.1667C7.35897 18.1667 6.71795 17.8334 6.33333 17.3334C5.82051 16.8334 5.5 16.2917 5.5 15.6667H1.33333L0.5 14.8334L1.33333 12.3334C1.58974 11.3334 2.16667 10.8334 2.16667 9.83335V7.33335C2.16667 6.45835 1.78205 5.58335 2.16667 4.83335C2.55128 3.95835 3.19231 2.95835 3.83333 2.33335C4.47436 1.70835 5.4359 0.916684 6.33333 0.666684C6.97436 0.416684 7.35897 0.666684 8 0.666684C7.74359 1.04168 7.42308 1.83335 7.16667 2.33335C6.91026 2.33335 6.71795 2.08335 6.33333 2.33335C5.69231 2.45835 5.17949 2.66668 4.66667 3.16668C4.15385 3.54168 4.08974 4.20835 3.83333 4.83335C3.57692 5.45835 3 6.58335 3 7.33335V9.83335C3 10.9584 2.42308 12.0417 2.16667 13.1667V14.8334H14.6667L13.8333 13.1667C13.609 12.5092 13.1141 11.3467 13 10.6667C13.5128 10.6667 14.2821 10.7917 14.6667 10.6667ZM8 17.3334C8.25641 17.3334 8.57692 16.75 8.83333 16.5C9.08974 16.25 9.66667 16.0417 9.66667 15.6667H7.16667C7.16667 16.0417 6.91026 16.25 7.16667 16.5C7.42308 16.75 7.74359 17.3334 8 17.3334ZM17.1667 4.83335C17.1667 5.82791 17.0546 6.63009 16.3333 7.33335C15.612 8.03661 14.0201 8.16668 13 8.16668C11.9799 8.16668 11.2213 8.03661 10.5 7.33335C9.77871 6.63009 9.66667 5.82791 9.66667 4.83335C9.66667 3.83879 9.77871 2.20328 10.5 1.50002C11.2213 0.796756 11.9799 0.666684 13 0.666684C14.0201 0.666684 15.612 0.796756 16.3333 1.50002C17.0546 2.20328 17.1667 3.83879 17.1667 4.83335Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+            <div class="user-avatar">
+              <div class="user">
+                <h3>David Johnson</h3>
+                <p>student</p>
+              </div>
+              <div class="avatar">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav>
+          <div class="nav-content">
+            <div class="wrapper">
+              <div class="close">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32">
+                  <g fill="none" fill-rule="evenodd">
+                    <path
+                      fill="none"
+                      stroke="#FFF"
+                      stroke-width="2"
+                      d="M.75.75h30.5v30.5H.75z"
+                    />
+                    <g fill="#FFF">
+                      <path
+                        d="M10.873 9.563l11.314 11.314-1.06 1.06L9.813 10.623z"
+                      />
+                      <path
+                        d="M9.813 20.877L21.127 9.563l1.06 1.06-11.314 11.314z"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </div>
+              <a href="./all.html">
+                <div class="dashboard nav-menu">
+                  <div class="icon-dashboard">
+                    <svg
+                      version="1.1"
+                      id="Layer_1"
+                      xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      x="0px"
+                      y="0px"
+                      viewBox="0 0 50 50"
+                      enable-background="new 0 0 50 50"
+                      xml:space="preserve"
+                    >
+                      <path
+                        d="M8.775,24.477h12.914c0.553,0,1-0.447,1-1V10.563c0-0.553-0.447-1-1-1H8.775c-0.553,0-1,0.447-1,1v12.914
+      C7.775,24.029,8.223,24.477,8.775,24.477z M9.775,11.563h10.914v10.914H9.775V11.563z"
+                      />
+                      <path
+                        d="M25.861,24.477h12.914c0.553,0,1-0.447,1-1V10.563c0-0.553-0.447-1-1-1H25.861c-0.553,0-1,0.447-1,1v12.914
+      C24.861,24.029,25.309,24.477,25.861,24.477z M26.861,11.563h10.914v10.914H26.861V11.563z"
+                      />
+                      <path
+                        d="M8.775,41.563h12.914c0.553,0,1-0.447,1-1V27.648c0-0.553-0.447-1-1-1H8.775c-0.553,0-1,0.447-1,1v12.914
+      C7.775,41.115,8.223,41.563,8.775,41.563z M9.775,28.648h10.914v10.914H9.775V28.648z"
+                      />
+                      <path
+                        d="M24.861,40.563c0,0.553,0.447,1,1,1h12.914c0.553,0,1-0.447,1-1V27.648c0-0.553-0.447-1-1-1H25.861c-0.553,0-1,0.447-1,1
+      V40.563z M26.861,28.648h10.914v10.914H26.861V28.648z"
+                      />
+                    </svg>
+                  </div>
+                  <p>Dashboard</p>
+                </div>
+              </a>
+              <a href="./instructors.html">
+                <div class="instructor nav-menu">
+                  <div class="icon-instructor">
+                    <svg
+                      width="21"
+                      height="16"
+                      viewBox="0 0 21 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M0.125 0.1875V1.75H17.3125V14.25H6.375V15.8125H20.4375V14.25H18.875V0.1875H0.125ZM3.25156 2.53125C2.4235 2.53413 1.63016 2.86425 1.04448 3.44963C0.458806 4.03501 0.128294 4.82819 0.125 5.65625C0.125 7.37422 1.53437 8.78125 3.25156 8.78125C4.07921 8.77796 4.87199 8.44761 5.45708 7.86223C6.04217 7.27684 6.37212 6.48389 6.375 5.65625C6.375 3.93984 4.96719 2.53125 3.25156 2.53125ZM7.9375 3.3125V4.875H11.8438V3.3125H7.9375ZM13.4062 3.3125V4.875H15.75V3.3125H13.4062ZM3.25156 4.09375C4.12187 4.09375 4.8125 4.78359 4.8125 5.65625C4.8125 6.53125 4.12266 7.21875 3.25156 7.21875C2.37656 7.21875 1.6875 6.53125 1.6875 5.65625C1.6875 4.78359 2.37734 4.09375 3.25156 4.09375ZM7.9375 6.4375V8H15.75V6.4375H7.9375ZM0.125 9.5625V15.8125H1.6875V11.125H4.03125V15.8125H5.59375V11.6391L7.20625 12.4922C7.66328 12.7344 8.2125 12.7336 8.66875 12.4922V12.4938L11.4266 11.0352L10.6977 9.65234L7.93906 11.1109L5.52031 9.83437C5.18275 9.65604 4.80678 9.56272 4.425 9.5625H0.125Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  <p>Instructors</p>
+                </div>
+              </a>
+              <a href="./students.html">
+                <div class="students nav-menu">
+                  <div class="icon-students">
+                    <svg
+                      width="25"
+                      height="15"
+                      viewBox="0 0 25 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12.5 0.578125L12.2555 0.652344L2.48984 3.92422L0.269531 4.65625L1.5625 5.07031V11.9062C1.09609 12.1773 0.78125 12.6719 0.78125 13.25C0.78125 13.6644 0.94587 14.0618 1.2389 14.3549C1.53192 14.6479 1.92935 14.8125 2.34375 14.8125C2.75815 14.8125 3.15558 14.6479 3.4486 14.3549C3.74163 14.0618 3.90625 13.6644 3.90625 13.25C3.90625 12.6719 3.59141 12.1773 3.125 11.9062V5.60938L4.6875 6.12109V10.125C4.6875 10.7656 5.07812 11.2969 5.54219 11.6641C6.00625 12.0289 6.58281 12.2867 7.275 12.518C8.66094 12.9789 10.4875 13.25 12.5 13.25C14.5125 13.25 16.3391 12.9797 17.725 12.5172C18.4172 12.2867 18.9938 12.0289 19.4578 11.6633C19.9219 11.2969 20.3125 10.7656 20.3125 10.125V6.12109L22.5102 5.38828L24.7305 4.65625L22.5094 3.92344L12.7437 0.652344L12.5 0.578125ZM12.5 2.21484L19.8242 4.65625L12.5 7.09766L5.17578 4.65625L12.5 2.21484ZM6.25 6.65859L12.2562 8.66016L12.5 8.73359L12.7445 8.65938L18.75 6.65781V10.125C18.75 10.1328 18.7531 10.2234 18.5055 10.418C18.2586 10.6133 17.8156 10.8594 17.2359 11.0531C16.0781 11.4383 14.3711 11.6875 12.5 11.6875C10.6289 11.6875 8.92188 11.4391 7.76328 11.0523C7.18516 10.8594 6.74141 10.6125 6.49453 10.418C6.24609 10.2227 6.25 10.1328 6.25 10.125V6.65781V6.65859Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  <p>Students</p>
+                </div>
+              </a>
+              <a href="./courses.html">
+                <div class="courses nav-menu">
+                  <div class="icon-courses">
+                    <svg
+                      width="19"
+                      height="16"
+                      viewBox="0 0 19 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.375 2.72658V15.0313M9.375 2.72658C9.375 2.72658 5.27344 -0.789041 1.17188 2.14065V15.0313C5.27344 12.1016 9.375 15.0313 9.375 15.0313C9.375 15.0313 13.4766 12.1016 17.5781 15.0313V2.14065C13.4766 -0.789041 9.375 2.72658 9.375 2.72658Z"
+                        stroke="white"
+                        stroke-width="1.5625"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </div>
+                  <p>Courses</p>
+                </div>
+              </a>
+              <div class="nav-footer">
+                <p>Last login</p>
+                <p class="currentDay">01/01/2022 0 4:47PM</p>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <section class="course-dashboard">
+        <div class="container">
+          <a href="./all.html">
+            <div class="totalStudents">
+              <div class="arrow">
+                <svg
+                  width="24"
+                  height="24"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                >
+                  <path
+                    d="M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z"
+                  />
+                </svg>
+              </div>
+              <h1>Total number of courses</h1>
+            </div>
+          </a>
+          <div class="filter-data">
+            <div class="filter-data-content">
+              <img src="./images/filter.png" alt="filter-data" />
+              <span class="toggle-filter">Filter</span>
+            </div>
+            <div class="filter-modal">
+              <ul class="filter-modal-content">
+                <li>A - Z</li>
+                <li>Z - A</li>
+                <li>High</li>
+                <li>Low</li>
+                <li>Frontend Engineering</li>
+                <li>Backend Engineering</li>
+                <li>Cloud Engineering</li>
+                <li>Data Science</li>
+                <li>Product Design</li>
+              </ul>
+            </div>
+          </div>
+          <table class="course-track">
+            <tr>
+              <th class="course-track-title">Course track</th>
+              <th class="students-enrolled-title right">Students enrolled</th>
+            </tr>
+            <tr>
+              <td class="bg-white-name">Frontend Engineering</td>
+              <td class="bg-white-name right">556</td>
+            </tr>
+            <tr>
+              <td class="bg-gray-name">Backend Engineering</td>
+              <td class="bg-gray-name right">130</td>
+            </tr>
+            <tr>
+              <td class="bg-white-name">Cloud Engineering</td>
+              <td class="bg-white-name right">1,000</td>
+            </tr>
+            <tr>
+              <td class="bg-gray-name">Data Science</td>
+              <td class="bg-gray-name right">200</td>
+            </tr>
+            <tr>
+              <td class="bg-white-name">Product Design</td>
+              <td class="bg-white-name right">700</td>
+            </tr>
+          </table>
+        </div>
+      </section>
+      <section class="main-dashboard">
+        <div class="container">
+          <div class="section">
+            <a href="./instructors.html">
+              <article>
+                <h1>Total number of instructors</h1>
+                <div class="icon">
+                  <svg
+                    width="25"
+                    height="20"
+                    viewBox="0 0 21 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M0.125 0.1875V1.75H17.3125V14.25H6.375V15.8125H20.4375V14.25H18.875V0.1875H0.125ZM3.25156 2.53125C2.4235 2.53413 1.63016 2.86425 1.04448 3.44963C0.458806 4.03501 0.128294 4.82819 0.125 5.65625C0.125 7.37422 1.53437 8.78125 3.25156 8.78125C4.07921 8.77796 4.87199 8.44761 5.45708 7.86223C6.04217 7.27684 6.37212 6.48389 6.375 5.65625C6.375 3.93984 4.96719 2.53125 3.25156 2.53125ZM7.9375 3.3125V4.875H11.8438V3.3125H7.9375ZM13.4062 3.3125V4.875H15.75V3.3125H13.4062ZM3.25156 4.09375C4.12187 4.09375 4.8125 4.78359 4.8125 5.65625C4.8125 6.53125 4.12266 7.21875 3.25156 7.21875C2.37656 7.21875 1.6875 6.53125 1.6875 5.65625C1.6875 4.78359 2.37734 4.09375 3.25156 4.09375ZM7.9375 6.4375V8H15.75V6.4375H7.9375ZM0.125 9.5625V15.8125H1.6875V11.125H4.03125V15.8125H5.59375V11.6391L7.20625 12.4922C7.66328 12.7344 8.2125 12.7336 8.66875 12.4922V12.4938L11.4266 11.0352L10.6977 9.65234L7.93906 11.1109L5.52031 9.83437C5.18275 9.65604 4.80678 9.56272 4.425 9.5625H0.125Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <p>10</p>
+              </article>
+            </a>
+            <a href="./students.html">
+              <article>
+                <h1>Total number of students</h1>
+                <div class="icon">
+                  <svg
+                    width="25"
+                    height="20"
+                    viewBox="0 0 25 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12.5 0.578125L12.2555 0.652344L2.48984 3.92422L0.269531 4.65625L1.5625 5.07031V11.9062C1.09609 12.1773 0.78125 12.6719 0.78125 13.25C0.78125 13.6644 0.94587 14.0618 1.2389 14.3549C1.53192 14.6479 1.92935 14.8125 2.34375 14.8125C2.75815 14.8125 3.15558 14.6479 3.4486 14.3549C3.74163 14.0618 3.90625 13.6644 3.90625 13.25C3.90625 12.6719 3.59141 12.1773 3.125 11.9062V5.60938L4.6875 6.12109V10.125C4.6875 10.7656 5.07812 11.2969 5.54219 11.6641C6.00625 12.0289 6.58281 12.2867 7.275 12.518C8.66094 12.9789 10.4875 13.25 12.5 13.25C14.5125 13.25 16.3391 12.9797 17.725 12.5172C18.4172 12.2867 18.9938 12.0289 19.4578 11.6633C19.9219 11.2969 20.3125 10.7656 20.3125 10.125V6.12109L22.5102 5.38828L24.7305 4.65625L22.5094 3.92344L12.7437 0.652344L12.5 0.578125ZM12.5 2.21484L19.8242 4.65625L12.5 7.09766L5.17578 4.65625L12.5 2.21484ZM6.25 6.65859L12.2562 8.66016L12.5 8.73359L12.7445 8.65938L18.75 6.65781V10.125C18.75 10.1328 18.7531 10.2234 18.5055 10.418C18.2586 10.6133 17.8156 10.8594 17.2359 11.0531C16.0781 11.4383 14.3711 11.6875 12.5 11.6875C10.6289 11.6875 8.92188 11.4391 7.76328 11.0523C7.18516 10.8594 6.74141 10.6125 6.49453 10.418C6.24609 10.2227 6.25 10.1328 6.25 10.125V6.65781V6.65859Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <p>2,220</p>
+              </article>
+            </a>
+            <a href="./courses.html">
+              <article class="course-border">
+                <h1>Total number of courses</h1>
+                <div class="icon">
+                  <svg
+                    width="25"
+                    height="20"
+                    viewBox="0 0 19 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M9.375 2.72658V15.0313M9.375 2.72658C9.375 2.72658 5.27344 -0.789041 1.17188 2.14065V15.0313C5.27344 12.1016 9.375 15.0313 9.375 15.0313C9.375 15.0313 13.4766 12.1016 17.5781 15.0313V2.14065C13.4766 -0.789041 9.375 2.72658 9.375 2.72658Z"
+                      stroke="white"
+                      stroke-width="1.5625"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <p>3</p>
+              </article>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="destop-table">
+        <div class="container">
+          <div class="table-content">
+            <table class="table-view">
+              <tr class="table-gray">
+                <th class="center">S/N</th>
+                <th>
+                  Course track
+                  <img
+                    class="arrow-down"
+                    src="./images/arrow-down.png"
+                    alt="arrow-down"
+                  />
+                </th>
+                <th>
+                  Students enrolled
+                  <img
+                    class="arrow-down"
+                    src="./images/arrow-down.png"
+                    alt="arrow-down"
+                  />
+                </th>
+                <th class="right">ACTIONS</th>
+              </tr>
+              <tr class="table-light">
+                <td class="center">1</td>
+                <td>Frontend Engineering</td>
+                <td>556</td>
+                <td class="right"><p>:</p></td>
+              </tr>
+              <tr class="table-gray">
+                <td class="center">2</td>
+                <td>Backend Engineering</td>
+                <td>130</td>
+                <td class="right"><p>:</p></td>
+              </tr>
+              <tr class="table-light">
+                <td class="center">3</td>
+                <td>Cloud Engineering</td>
+                <td>1,000</td>
+                <td class="right"><p>:</p></td>
+              </tr>
+              <tr class="table-gray">
+                <td class="center">4</td>
+                <td>Data Science</td>
+                <td>200</td>
+                <td class="right"><p>:</p></td>
+              </tr>
+              <tr class="table-light">
+                <td class="center">5</td>
+                <td>Product Design</td>
+                <td>700</td>
+                <td class="right"><p>:</p></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="courses.js"></script>
+  </body>
+</html>

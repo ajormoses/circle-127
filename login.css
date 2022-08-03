@@ -1,0 +1,306 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #eff3f6;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+main {
+  position: relative;
+  height: 100vh;
+}
+
+.bg-one,
+.bg-two {
+  position: absolute;
+  bottom: 0;
+}
+
+.bg-desktop {
+  display: none;
+}
+
+.bg-two {
+  right: 0;
+}
+
+.container-content {
+  padding-top: 7rem;
+}
+
+.header {
+  padding-bottom: 2rem;
+  color: #2e384d;
+}
+
+.header p {
+  padding-top: 0.5rem;
+}
+
+.email,
+.password {
+  letter-spacing: 1px;
+  margin-bottom: 0.5rem;
+  color: #2e384d;
+  font-weight: bold;
+}
+
+#email {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #2e384d12;
+  background: linear-gradient(
+      0deg,
+      rgba(46, 56, 77, 0.07),
+      rgba(46, 56, 77, 0.07)
+    ),
+    linear-gradient(0deg, rgba(46, 56, 77, 0.02), rgba(46, 56, 77, 0.02));
+}
+
+.err-email {
+  margin-bottom: 1rem;
+  color: red;
+  font-size: 0.8rem;
+  padding-top: 0.3rem;
+}
+
+.err-password {
+  color: red;
+  font-size: 0.8rem;
+  padding-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.forget-password {
+  text-align: right;
+  margin-bottom: 1.3rem;
+  color: #35268c;
+  cursor: pointer;
+}
+
+#password {
+  width: 90%;
+  padding: 1rem 0;
+  background: transparent;
+}
+
+#login {
+  padding: 1rem;
+  background: #35268c;
+  width: 100%;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: white;
+  cursor: pointer;
+}
+
+.account {
+  text-align: center;
+}
+
+.show-eye svg,
+.hide-eye svg {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.hide-eye.show {
+  opacity: 0;
+}
+
+.password-eye {
+  position: relative;
+  cursor: pointer;
+}
+
+.show-eye {
+  position: absolute;
+  top: 0;
+  opacity: 0;
+}
+
+.show-eye.show {
+  opacity: 1;
+}
+
+.password-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  align-items: center;
+  background: white;
+  border: 1px solid #2e384d12;
+  background: linear-gradient(
+      0deg,
+      rgba(46, 56, 77, 0.07),
+      rgba(46, 56, 77, 0.07)
+    ),
+    linear-gradient(0deg, rgba(46, 56, 77, 0.02), rgba(46, 56, 77, 0.02));
+}
+
+.sign-up {
+  color: #35268c;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 31rem) {
+  .container {
+    width: 75%;
+  }
+
+  .bg-one svg,
+  .bg-two svg {
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+@media only screen and (min-width: 44rem) {
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  .container {
+    width: 60%;
+  }
+
+  .container-content {
+    padding-top: 0rem;
+  }
+
+  .bg-one svg,
+  .bg-two svg {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  .header h1 {
+    font-size: 2.5rem;
+  }
+
+  .header p,
+  .email,
+  .password,
+  .account {
+    font-size: 1.3rem;
+  }
+
+  #email {
+    padding: 1.3rem;
+  }
+
+  #password {
+    padding: 1.3rem 0;
+  }
+
+  .err-email,
+  .err-password {
+    font-size: 1rem;
+  }
+
+  .show-eye svg,
+  .hide-eye svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  #login {
+    padding: 1.5rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media only screen and (min-width: 63rem) {
+  .container {
+    width: 20rem;
+  }
+
+  body {
+    background: #ffffff;
+  }
+
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .header p,
+  .email,
+  .password,
+  .account {
+    font-size: 1rem;
+  }
+
+  #email {
+    padding: 1rem;
+  }
+
+  #password {
+    padding: 1rem 0;
+  }
+
+  .err-email,
+  .err-password {
+    font-size: 0.8rem;
+  }
+
+  .show-eye svg,
+  .hide-eye svg {
+    height: 1.2rem;
+    width: 1.2rem;
+    fill: #35268c;
+  }
+
+  #login {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .bg {
+    display: none;
+  }
+
+  .bg-desktop {
+    display: block;
+  }
+
+  .bg-desktop-one,
+  .bg-desktop-two {
+    position: absolute;
+    bottom: 0;
+  }
+
+  .bg-desktop-two {
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 75rem) {
+  .container {
+    width: 22rem;
+  }
+}
+
+@media only screen and (min-width: 100rem) {
+  main {
+    width: 100rem;
+    margin: auto;
+  }
+}

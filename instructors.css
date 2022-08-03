@@ -1,0 +1,605 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #eff3f6;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container,
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  padding: 1.5em 0;
+  background: #35268c;
+  position: fixed;
+  width: 100%;
+}
+
+.desktop {
+  display: none;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#form {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  height: 2.5rem;
+  padding: 0 1rem;
+}
+
+#search {
+  width: 100%;
+}
+
+#search::placeholder {
+  color: #a5a5a5;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 1.7rem;
+  height: 1.7rem;
+  padding: 0.2em 0 0 0.25em;
+  background: #f3fafc;
+}
+
+.avatar svg {
+  height: 1.1rem;
+  width: 1.1rem;
+  fill: #dadada;
+  margin: auto;
+}
+
+.close {
+  position: absolute;
+  top: 1.8rem;
+  right: 5%;
+  opacity: 0;
+  z-index: 2;
+}
+
+.close svg {
+  height: 2rem;
+}
+
+.filter.show {
+  opacity: 0;
+}
+
+.close.show {
+  opacity: 1;
+}
+
+.icon-dashboard svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  fill: white;
+}
+
+.nav-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 50%;
+  padding-top: 8rem;
+  background: rgb(5, 5, 48);
+  display: none;
+}
+
+.nav-content.show {
+  display: block;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.8rem;
+  padding: 1rem 0.5rem;
+}
+
+.nav-menu:hover {
+  background: #35268c;
+}
+
+.nav-menu p {
+  color: #ffffff;
+  padding-left: 0.5rem;
+  font-size: 0.8rem;
+}
+
+.nav-footer {
+  position: absolute;
+  padding: 0.5rem;
+  width: 90%;
+  bottom: 2rem;
+  background: #ffffff1a;
+}
+
+.nav-footer p {
+  color: #ffffff80;
+  font-size: 0.8rem;
+  padding: 0.1rem 0;
+}
+
+.user,
+.notification {
+  display: none;
+}
+
+/* header stops here */
+
+.instructor-dashboard {
+  padding-top: 7rem;
+}
+
+.arrow svg {
+  height: 2rem;
+  width: 2rem;
+}
+
+.totalStudents {
+  display: flex;
+}
+
+.totalStudents h1 {
+  color: #35608f;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+
+.filter-data,
+.filter-slide {
+  background: white;
+  padding: 1rem 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.filter-data-content {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.filter-data-content img {
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+.filter-data-content span {
+  padding-left: 0.3rem;
+}
+
+.toggle-filter {
+  font-size: 0.8rem;
+  margin-left: 0.3rem;
+  z-index: 2;
+}
+
+.filter-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(37, 37, 37, 0.39);
+  display: none;
+}
+
+.filter-modal.show {
+  display: block;
+}
+
+.filter-modal-content {
+  position: absolute;
+  top: 12.5rem;
+  right: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  line-height: 2rem;
+  border-radius: 0.5rem;
+  font-size: 0.8rem;
+  background: white;
+}
+
+.instructor {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.instructor-title {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+
+.instructor-title,
+.course-title {
+  background: #ebe9f4;
+  padding: 1rem 1.1rem;
+  font-weight: bolder;
+}
+
+.bg-white-name {
+  padding: 1.2rem 1.1rem;
+  background: white;
+}
+
+.bg-gray-name {
+  padding: 1.2rem 1.1rem;
+  background: linear-gradient(0deg, #f9f8fc, #f9f8fc);
+}
+
+.main-dashboard {
+  display: none;
+}
+
+.section {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background: #ffffff;
+}
+
+.icon {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  background: #35268c;
+  margin: auto;
+}
+
+.icon svg {
+  margin: 1.3rem 0.8rem;
+}
+
+article {
+  text-align: center;
+  line-height: 3.5rem;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  background: #ffffff;
+  box-shadow: 4px 0px 24px 0px #3e608b33;
+}
+
+article h1 {
+  color: #35608f;
+  font-size: 0.9rem;
+}
+
+article p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #3e608b;
+}
+
+article:hover {
+  transform: scale(1.1);
+}
+
+.table-content {
+  display: none;
+}
+
+@media only screen and (max-width: 21.9rem) {
+  #search::placeholder,
+  .nav-menu p,
+  .nav-footer p {
+    font-size: 0.7rem;
+  }
+
+  .totalStudents h1 {
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  .filter-modal-content {
+    padding: 0.5rem 1rem;
+    line-height: 1.6rem;
+    font-size: 0.7rem;
+    right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 43.8rem) {
+  .filter-modal-content {
+    right: 2.5rem;
+  }
+}
+
+@media only screen and (min-width: 63rem) {
+  .container {
+    width: 44rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-35%);
+  }
+
+  .table-content {
+    position: absolute;
+    top: 18rem;
+    width: 100%;
+    display: block;
+  }
+
+  .table-view {
+    padding: 1.5rem;
+    background: white;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  .arrow-down {
+    margin-left: 0.5rem;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .right p {
+    background: white;
+    width: 0.5rem;
+    padding: 0.2rem;
+    margin-left: auto;
+  }
+
+  td,
+  th {
+    text-align: left;
+    padding: 1rem 0.5rem;
+  }
+
+  th {
+    font-weight: 700;
+  }
+
+  .table-gray {
+    background: linear-gradient(0deg, #ebe9f4, #ebe9f4),
+      linear-gradient(0deg, #f2f2f2, #f2f2f2);
+  }
+
+  .table-light {
+    background: #f9f8fc;
+  }
+
+  .wrapper {
+    width: auto;
+  }
+
+  .icon-toggle,
+  .close {
+    display: none;
+  }
+
+  .nav-footer {
+    padding: 1rem;
+    width: 85%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  header {
+    padding: 2rem 0 4rem;
+    z-index: 2;
+    background: #ffffff;
+  }
+
+  .dashboard {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .desktop,
+  .notification {
+    display: block;
+  }
+
+  .notification {
+    cursor: pointer;
+  }
+
+  #form {
+    background: #f6f6f6;
+    width: 50%;
+    justify-content: left;
+    border-radius: 1.5rem;
+    direction: rtl;
+    padding: 0 2rem;
+  }
+
+  #search {
+    width: 18rem;
+    text-align: left;
+    padding-left: 0.5rem;
+    background: #f6f6f6;
+  }
+
+  .avatar {
+    height: 2.5rem;
+    width: 2.5rem;
+    background: #ffe6cc;
+    margin-left: 0.5rem;
+    cursor: pointer;
+  }
+
+  .avatar svg {
+    margin: 0.4rem 0.45rem;
+  }
+
+  .user {
+    display: block;
+    line-height: 1.2rem;
+  }
+
+  .user h3 {
+    font-size: 1rem;
+  }
+
+  .user p {
+    font-size: 0.8rem;
+  }
+
+  .user-avatar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icon-dashboard svg {
+    height: 1.5rem;
+    width: 1.5rem;
+    fill: white;
+  }
+
+  .nav-content {
+    display: block;
+    width: 15rem;
+  }
+
+  .nav-menu {
+    line-height: 2rem;
+    width: 85%;
+    margin: auto;
+  }
+
+  .nav-menu:hover {
+    background: #35268c;
+  }
+
+  .nav-menu p {
+    color: #ffffff;
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .nav-footer {
+    background: #ffffff1a;
+  }
+
+  .nav-footer p {
+    color: #ffffff80;
+    font-size: 0.8rem;
+    padding: 0.1rem 0;
+  }
+
+  /* header stops here */
+  .instructor-dashboard {
+    display: none;
+  }
+
+  .main-dashboard {
+    padding-top: 8rem;
+    display: block;
+  }
+
+  .section {
+    padding: 1.5rem;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  article {
+    padding: 1rem;
+    margin-bottom: 0;
+  }
+
+  .instructor-border {
+    border: 1px solid #5e4bce;
+  }
+
+  /* table on desktop view */
+}
+
+@media only screen and (min-width: 75rem) {
+  .container {
+    width: 58rem;
+    transform: translate(-40%);
+  }
+
+  .table-content {
+    top: 19rem;
+  }
+
+  .nav-footer {
+    padding: 1rem;
+    width: 85%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .dashboard {
+    font-size: 2rem;
+  }
+
+  #search {
+    width: 18rem;
+    padding-left: 0.3rem;
+  }
+
+  .user h3 {
+    font-size: 1.1rem;
+  }
+
+  .user p {
+    font-size: 0.9rem;
+  }
+
+  /* header stops here */
+
+  article {
+    padding: 1.5rem 2rem;
+    margin-bottom: 0;
+  }
+
+  article h1 {
+    font-size: 1rem;
+  }
+
+  article p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 88rem) {
+  .nav-content {
+    width: 18rem;
+  }
+}
+
+@media only screen and (min-width: 113rem) {
+  main,
+  header {
+    margin: auto;
+    width: 106rem;
+  }
+}

@@ -429,16 +429,96 @@ article p {
   }
 }
 
-@media only screen and (min-width: 88rem) {
+@media only screen and (min-width: 87.5rem) {
   .nav-content {
     width: 18rem;
   }
+
+  .container {
+    width: 60rem;
+    transform: translate(-38%);
+  }
+
+  #search {
+    font-size: 1rem;
+  }
+
+  .user h3 {
+    font-size: 1.3rem;
+  }
+
+  .user p {
+    padding-top: 0.2rem;
+    font-size: 1rem;
+  }
+
+  .nav-menu p {
+    font-size: 1.1rem;
+  }
+
+  .nav-footer p {
+    font-size: 1.1rem;
+  }
+
+  /* header stops here */
+
+  article {
+    padding: 2rem 2.1rem;
+  }
+
+  article h1 {
+    font-size: 1.1rem;
+  }
+
+  article p {
+    font-size: 1.3rem;
+  }
 }
 
-@media only screen and (min-width: 113rem) {
+@media only screen and (min-width: 125rem) {
   main,
   header {
     margin: auto;
-    width: 106rem;
+    width: 125rem;
+  }
+
+  .container {
+    width: 80rem;
+  }
+
+  .nav-content {
+    width: 26rem;
+  }
+
+  .user h3 {
+    font-size: 1.5rem;
+  }
+
+  .user p {
+    padding-top: 0.3rem;
+    font-size: 1.3rem;
+  }
+
+  .nav-menu p {
+    font-size: 1.5rem;
+  }
+
+  .nav-footer p {
+    font-size: 1.5rem;
+  }
+
+  /* header stops here */
+
+  article {
+    padding: 3rem 2.7rem;
+    line-height: 5rem;
+  }
+
+  article h1 {
+    font-size: 1.5rem;
+  }
+
+  article p {
+    font-size: 1.5rem;
   }
 }

@@ -231,7 +231,7 @@ main {
   }
 }
 
-@media only screen and (min-width: 63rem) {
+@media only screen and (min-width: 62.5rem) {
   .container {
     width: 20rem;
   }
@@ -262,6 +262,10 @@ main {
   .err-email,
   .err-password {
     font-size: 0.8rem;
+  }
+
+  .forget-password {
+    margin-bottom: 1rem;
   }
 
   .show-eye svg,
@@ -301,9 +305,109 @@ main {
   }
 }
 
+@media only screen and (min-width: 87.5rem) {
+  .container {
+    width: 30rem;
+  }
+
+  .header h1 {
+    font-size: 2.5rem;
+  }
+
+  .header p,
+  .email,
+  .password,
+  .account {
+    font-size: 1.5rem;
+  }
+
+  #email {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+  }
+
+  #password {
+    padding: 1.5rem 0;
+    font-size: 1.5rem;
+  }
+
+  .password-container {
+    padding: 0 1.5rem;
+  }
+
+  .forget-password {
+    font-size: 1.2rem;
+  }
+
+  .err-email,
+  .err-password {
+    font-size: 1rem;
+  }
+
+  .show-eye svg,
+  .hide-eye svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+
+  #login {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+  }
+}
+
 @media only screen and (min-width: 125rem) {
   main {
     width: 125rem;
     margin: auto;
+  }
+
+  .container {
+    width: 40rem;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+  }
+
+  .header p,
+  .email,
+  .password,
+  .account {
+    font-size: 2rem;
+  }
+
+  #email {
+    padding: 2rem;
+    font-size: 2rem;
+  }
+
+  #password {
+    padding: 2rem 0;
+    font-size: 2rem;
+  }
+
+  .password-container {
+    padding: 0 2rem;
+  }
+
+  .err-email,
+  .err-password {
+    font-size: 1.5rem;
+  }
+
+  .show-eye svg,
+  .hide-eye svg {
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .forget-password {
+    font-size: 1.5rem;
+  }
+
+  #login {
+    padding: 2rem;
+    font-size: 2rem;
   }
 }
